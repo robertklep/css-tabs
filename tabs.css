@@ -1,0 +1,104 @@
+.tabs {
+  font: 12pt/14pt Helvetica;
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.tabs input {
+  position: absolute;
+  left: -9999px;
+}
+.tabs label {
+  width: 198px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  border: 1px solid #888;
+  background: #eee;
+  border-radius: 8px 8px 0 0;
+}
+.tabs .content {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  border: 1px solid #888;
+  padding: 1em;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  opacity: 0;
+  box-sizing: border-box;
+  -webkit-transition: opacity 0.1s ease-in-out;
+}
+.tabs .content h1 {
+  font-size: 110%;
+  text-align: center;
+  margin: 1em;
+}
+.tabs input:checked + label {
+  background: #fff !important;
+  border-bottom: 1px solid #fff;
+}
+.tabs input:hover + label {
+  background: #ccc;
+}
+.tabs input:nth-of-type(1):checked + label ~ .content:nth-of-type(1) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(2):checked + label ~ .content:nth-of-type(2) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(3):checked + label ~ .content:nth-of-type(3) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(4):checked + label ~ .content:nth-of-type(4) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(5):checked + label ~ .content:nth-of-type(5) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(6):checked + label ~ .content:nth-of-type(6) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(7):checked + label ~ .content:nth-of-type(7) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(8):checked + label ~ .content:nth-of-type(8) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(9):checked + label ~ .content:nth-of-type(9) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(10):checked + label ~ .content:nth-of-type(10) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(11):checked + label ~ .content:nth-of-type(11) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(12):checked + label ~ .content:nth-of-type(12) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(13):checked + label ~ .content:nth-of-type(13) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(14):checked + label ~ .content:nth-of-type(14) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(15):checked + label ~ .content:nth-of-type(15) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(16):checked + label ~ .content:nth-of-type(16) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(17):checked + label ~ .content:nth-of-type(17) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(18):checked + label ~ .content:nth-of-type(18) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(19):checked + label ~ .content:nth-of-type(19) {
+  opacity: 1;
+}
+.tabs input:nth-of-type(20):checked + label ~ .content:nth-of-type(20) {
+  opacity: 1;
+}

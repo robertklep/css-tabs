@@ -1,0 +1,50 @@
+$num-tabs   = 4
+$tab-width  = 200px
+
+.tabs
+  font 12pt/14pt Helvetica
+  width $num-tabs * $tab-width
+  margin 0 auto
+  position relative
+
+  input
+    position absolute
+    left -9999px
+
+  label
+    width $tab-width - 2px
+    text-align center
+    height 40px
+    line-height 40px
+    float left
+    border 1px solid #888
+    background #eee
+    border-radius 8px 8px 0 0
+
+  .content
+    position  absolute
+    width     100%
+    top       40px
+    border    1px solid #888
+    padding   1em
+    border-top none
+    border-radius 0 0 8px 8px
+    opacity   0
+    box-sizing border-box
+    -webkit-transition: opacity 0.1s ease-in-out;
+
+    h1
+      font-size 110%
+      text-align center
+      margin  1em
+
+  input:checked + label
+    background white !important
+    border-bottom 1px solid white
+
+  input:hover + label
+    background #ccc
+
+  for idx in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+    input:nth-of-type({idx}):checked + label ~ .content:nth-of-type({idx})
+      opacity 1
