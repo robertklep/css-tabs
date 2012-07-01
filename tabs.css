@@ -9,6 +9,7 @@
   left: -9999px;
 }
 .tabs label {
+  position: relative;
   width: 198px;
   text-align: center;
   height: 40px;
@@ -17,18 +18,18 @@
   border: 1px solid #888;
   background: #eee;
   border-radius: 8px 8px 0 0;
+  z-index: 2;
 }
 .tabs .content {
   position: absolute;
   width: 100%;
-  top: 40px;
+  top: 41px;
   border: 1px solid #888;
   padding: 1em;
-  border-top: none;
   border-radius: 0 0 8px 8px;
   opacity: 0;
+  z-index: 1;
   box-sizing: border-box;
-  -webkit-transition: opacity 0.1s ease-in-out;
 }
 .tabs .content h1 {
   font-size: 110%;
