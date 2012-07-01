@@ -42,63 +42,63 @@
 .tabs input:hover + label {
   background: #ccc;
 }
-.tabs input:nth-of-type(1):checked + label ~ .content:nth-of-type(1) {
+.tabs input:nth-of-type(1):checked ~ .content:nth-of-type(1) {
   opacity: 1;
 }
-.tabs input:nth-of-type(2):checked + label ~ .content:nth-of-type(2) {
+.tabs input:nth-of-type(2):checked ~ .content:nth-of-type(2) {
   opacity: 1;
 }
-.tabs input:nth-of-type(3):checked + label ~ .content:nth-of-type(3) {
+.tabs input:nth-of-type(3):checked ~ .content:nth-of-type(3) {
   opacity: 1;
 }
-.tabs input:nth-of-type(4):checked + label ~ .content:nth-of-type(4) {
+.tabs input:nth-of-type(4):checked ~ .content:nth-of-type(4) {
   opacity: 1;
 }
-.tabs input:nth-of-type(5):checked + label ~ .content:nth-of-type(5) {
+.tabs input:nth-of-type(5):checked ~ .content:nth-of-type(5) {
   opacity: 1;
 }
-.tabs input:nth-of-type(6):checked + label ~ .content:nth-of-type(6) {
+.tabs input:nth-of-type(6):checked ~ .content:nth-of-type(6) {
   opacity: 1;
 }
-.tabs input:nth-of-type(7):checked + label ~ .content:nth-of-type(7) {
+.tabs input:nth-of-type(7):checked ~ .content:nth-of-type(7) {
   opacity: 1;
 }
-.tabs input:nth-of-type(8):checked + label ~ .content:nth-of-type(8) {
+.tabs input:nth-of-type(8):checked ~ .content:nth-of-type(8) {
   opacity: 1;
 }
-.tabs input:nth-of-type(9):checked + label ~ .content:nth-of-type(9) {
+.tabs input:nth-of-type(9):checked ~ .content:nth-of-type(9) {
   opacity: 1;
 }
-.tabs input:nth-of-type(10):checked + label ~ .content:nth-of-type(10) {
+.tabs input:nth-of-type(10):checked ~ .content:nth-of-type(10) {
   opacity: 1;
 }
-.tabs input:nth-of-type(11):checked + label ~ .content:nth-of-type(11) {
+.tabs input:nth-of-type(11):checked ~ .content:nth-of-type(11) {
   opacity: 1;
 }
-.tabs input:nth-of-type(12):checked + label ~ .content:nth-of-type(12) {
+.tabs input:nth-of-type(12):checked ~ .content:nth-of-type(12) {
   opacity: 1;
 }
-.tabs input:nth-of-type(13):checked + label ~ .content:nth-of-type(13) {
+.tabs input:nth-of-type(13):checked ~ .content:nth-of-type(13) {
   opacity: 1;
 }
-.tabs input:nth-of-type(14):checked + label ~ .content:nth-of-type(14) {
+.tabs input:nth-of-type(14):checked ~ .content:nth-of-type(14) {
   opacity: 1;
 }
-.tabs input:nth-of-type(15):checked + label ~ .content:nth-of-type(15) {
+.tabs input:nth-of-type(15):checked ~ .content:nth-of-type(15) {
   opacity: 1;
 }
-.tabs input:nth-of-type(16):checked + label ~ .content:nth-of-type(16) {
+.tabs input:nth-of-type(16):checked ~ .content:nth-of-type(16) {
   opacity: 1;
 }
-.tabs input:nth-of-type(17):checked + label ~ .content:nth-of-type(17) {
+.tabs input:nth-of-type(17):checked ~ .content:nth-of-type(17) {
   opacity: 1;
 }
-.tabs input:nth-of-type(18):checked + label ~ .content:nth-of-type(18) {
+.tabs input:nth-of-type(18):checked ~ .content:nth-of-type(18) {
   opacity: 1;
 }
-.tabs input:nth-of-type(19):checked + label ~ .content:nth-of-type(19) {
+.tabs input:nth-of-type(19):checked ~ .content:nth-of-type(19) {
   opacity: 1;
 }
-.tabs input:nth-of-type(20):checked + label ~ .content:nth-of-type(20) {
+.tabs input:nth-of-type(20):checked ~ .content:nth-of-type(20) {
   opacity: 1;
 }

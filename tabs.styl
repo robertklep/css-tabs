@@ -46,5 +46,5 @@ $tab-width  = 200px
     background #ccc
 
   for idx in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
-    input:nth-of-type({idx}):checked + label ~ .content:nth-of-type({idx})
+    input:nth-of-type({idx}):checked ~ .content:nth-of-type({idx})
       opacity 1
